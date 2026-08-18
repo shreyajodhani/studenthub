@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+}
+
+
+table[width="95%"] {
+    border: 8px solid black;
+    border-collapse: collapse;
+}
+
+
+table[width="95%"] > tbody > tr > td {
+    background-color: white;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    background-color: gray;
+    border: 1px solid black;
+}
+
+
+td[align="left"] {
+    background-color: white;
+}
+
+
+a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+
+input[type="text"], 
+input[type="password"] {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+button {
+    padding: 6px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: white;
+}
+
+h1, h2, h3, h4 {
+    margin: 8px;
+    color: black;
+}
+
+
